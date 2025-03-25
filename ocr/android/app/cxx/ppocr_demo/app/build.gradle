@@ -3,7 +3,8 @@ import java.security.MessageDigest
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
+    compileSdk 36
+    namespace "com.baidu.paddle.lite.demo.object_detection"
     defaultConfig {
         applicationId "com.baidu.paddle.lite.demo.object_detection"
         minSdkVersion 15
@@ -25,6 +26,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    ndkVersion '16.1.4479499'
     externalNativeBuild {
         cmake {
             path "src/main/cpp/CMakeLists.txt"
