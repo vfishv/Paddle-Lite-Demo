@@ -20,6 +20,7 @@ import android.widget.Toast;
 
 import com.baidu.paddle.lite.demo.common.CameraSurfaceView;
 import com.baidu.paddle.lite.demo.common.Utils;
+import com.baidu.paddle.lite.demo.object_detection.R;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
